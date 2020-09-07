@@ -78,3 +78,10 @@ jobs:
         service: sample-app-service
         cluster: default
         wait-for-service-stability: true
+
+
+
+"publishConfig": { "registry": "https://npm.pkg.github.com/" }
+npm login --registry=https://npm.pkg.github.com/
+npm login --registry=https://npm.pkg.github.com/
+
